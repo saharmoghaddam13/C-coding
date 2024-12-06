@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main() 
+{
     int option;
     float n1, n2, answer;
 
@@ -21,7 +22,7 @@ int main() {
           printf("please enter two numbers: ");
           scanf("%f %f", &n1, &n2);
           answer=n1+n2;
-          printf("the answer is: %.2f \n", answer);
+          printf("answer: %.2f \n", answer);
        }
        else if (option==2) 
        {
